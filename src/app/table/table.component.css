@@ -1,0 +1,35 @@
+:host {
+    display: block;
+    overflow: scroll;
+}
+
+.table {
+    border: 1px solid rgb(207, 207, 207);
+    border-top: none;
+    border-right: none;
+    padding: 0px;
+    margin: 0px;
+    table-layout: fixed;
+    position: relative;
+}
+
+.table-row, .table-cell {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.table-row {
+    padding: 0px;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+}
+
+.table-cell {
+    border: 1px solid rgb(207, 207, 207);
+    border-left: none;
+    border-bottom: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+}
